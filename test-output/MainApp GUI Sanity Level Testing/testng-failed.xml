@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MainApp GUI Sanity Level Testing]">
+  <test thread-count="5" name="MainApp UI Verification (failed)">
+    <classes>
+      <class name="com.mainapp.tests.HomePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifySystemOperationsTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mainapp.tests.HomePageTest -->
+    </classes>
+  </test> <!-- MainApp UI Verification (failed) -->
+</suite> <!-- Failed suite [MainApp GUI Sanity Level Testing] -->
